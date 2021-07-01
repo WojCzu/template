@@ -1,0 +1,4 @@
+global styles: 
+* reset
+* fonts
+* typography

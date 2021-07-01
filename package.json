@@ -1,0 +1,28 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "This is just template with webpack config",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config ./config/webpack.config.prod.js",
+    "start": "webpack serve --config ./config/webpack.config.dev.js",
+    "dev": "webpack --config ./config/webpack.config.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

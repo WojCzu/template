@@ -1,0 +1,5 @@
+all blocks and elements like:
+* buttons
+* inputs
+* logo
+* navigation
